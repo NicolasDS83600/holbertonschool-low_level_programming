@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main()
+{
+  int puts (const char * string);
+  puts ("\"Pogramming is like uilding a multilingual puzzle");
+ return 0;
+}
