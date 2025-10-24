@@ -9,6 +9,6 @@ int main(void)
 	{
 	_putchar(phrase[i]);
 	}
-	
+
 	return (0);
 }
