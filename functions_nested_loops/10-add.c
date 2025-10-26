@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * Salut Betty
+ * add - adds two integers
  */
 int add(int a, int b)
 {
