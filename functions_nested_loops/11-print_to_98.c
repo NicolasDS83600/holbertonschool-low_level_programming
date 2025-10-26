@@ -3,6 +3,7 @@
 
 /**
  * print_to_98 - prints all natural numbers from n to 98
+ * @n: the starting number
  *
  * Description: Numbers are separated by a comma and a space,
  * and printed in order. The last number is always 98.
