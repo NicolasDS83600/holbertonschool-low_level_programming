@@ -6,7 +6,11 @@ int r, n;
 for (r = 0; r < 10; r++)
 {
 for (n = 0; n <= 14; n++)
-_putchar(n);
+{
+if (j >= 10)
+_putchar('n');
+_putchar((j % 10) + '0');
+}
 _putchar('\n');
 }
 }
