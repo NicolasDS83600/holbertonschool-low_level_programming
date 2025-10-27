@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _isdigit - checks for digit
+ * mul - multiplies two integers
  * @c: The character to check
  *
- * Return: 1 if digit, 0 otherwise
+ * Return: 0
  */
 int mul(int a, int b)
   int a, b;
