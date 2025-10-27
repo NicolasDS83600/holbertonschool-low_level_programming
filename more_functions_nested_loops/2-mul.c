@@ -2,9 +2,10 @@
 
 /**
  * mul - multiplies two integers
- * @c: The character to check
+ * @a: first integer
+ * @b: second integer
  *
- * Return: 0
+ * Return: result of multiplication
  */
 int mul(int a, int b)
 {
