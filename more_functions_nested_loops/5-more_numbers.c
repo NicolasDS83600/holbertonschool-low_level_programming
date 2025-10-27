@@ -1,7 +1,11 @@
 #include "main.h"
 
 /**
- * void more_numbers -function that prints 10 times the numbers, from 0 to 14
+ * more_numbers - Prints 10 times the numbers from 0 to 14
+ *
+ * Description: This function uses nested loops to print the numbers
+ * from 0 to 14, ten times, followed by a new line after each sequence.
+ * It uses _putchar to display the numbers.
  *
  * Return: void
  */
