@@ -13,7 +13,7 @@ int n;
 			printf("Fizz");
 			else
 			printf("%d", n);
-	}
+
 		if (n < 100)
 			putchar(' ');
 	}
