@@ -1,5 +1,13 @@
 #include "main.h"
 
+/**
+ * print_triangle - Prints a right-aligned triangle using the '#' character.
+ * @size: The height and base size of the triangle.
+ *
+ * Description: If size is 0 or less, the function prints only a newline.
+ * The triangle is right-aligned, with each row containing one more '#'
+ * than the previous row.
+ */
 void print_triangle(int size)
 
 {
