@@ -2,7 +2,7 @@
 
 void puts2(char *str)
 {
-int i = 1;
+int i = 2;
 while (str[i] != '\0')
 {
 _putchar(str[i]);
