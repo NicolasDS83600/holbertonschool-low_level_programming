@@ -3,7 +3,7 @@
 void puts2(char *str)
 {
 int i;
-while (str[i + 1] != '\o')
+while (str[i + 1] != '\0')
 {
 _putchar(str[i + 1]);
 i++;
