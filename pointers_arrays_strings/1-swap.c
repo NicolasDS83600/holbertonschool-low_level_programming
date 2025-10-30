@@ -8,7 +8,7 @@
  * Description: Cette fonction prend deux pointeurs vers des entiers et échange
  * les valeurs des entiers pointés.
  */
-void swap_int(int *a, int *b)  
+void swap_int(int *a, int *b)
 {
 int i = *a;
 *a = *b;
