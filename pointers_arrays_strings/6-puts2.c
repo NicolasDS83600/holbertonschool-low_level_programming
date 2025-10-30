@@ -2,10 +2,10 @@
 
 void puts2(char *str)
 {
-int i;
-while (str[i + 1] != '\0')
+int i = 1;
+while (str[i] != '\0')
 {
-_putchar(str[i + 1]);
+_putchar(str[i]);
 i++;
 }
   _putchar('\n');
