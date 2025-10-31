@@ -1,5 +1,16 @@
 #include "main.h"
 
+/**
+ * leet - Encodes a string into 1337 (leet speak)
+ * @s: The string to encode
+ *
+ * Description: Replaces specific letters in a string with numbers
+ * following the 1337 encoding rules:
+ * a/A → 4, e/E → 3, o/O → 0, t/T → 7, l/L → 1.
+ * The encoding is done in-place.
+ *
+ * Return: Pointer to the encoded string
+ */
 char *leet(char *s)
 {
 
