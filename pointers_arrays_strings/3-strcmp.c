@@ -1,11 +1,13 @@
 #include "main.h"
 
 /**
- * function_name - brief description
- * @param1: description
- * @param2: description
+ * _strcmp - Compares two strings
+ * @s1: The first string to compare
+ * @s2: The second string to compare
  *
- * Return: what the function returns
+ * Return:
+ * An integer less than, equal to, or greater than 0 if s1 is found,
+ * respectively, to be less than, to match, or be greater than s2
  */
 int _strcmp(char *s1, char *s2)
 {
