@@ -17,7 +17,7 @@ while (s[i] != '\0')
 {
 if (s[i] == '-')
 sign *= -1;
-else if (s[i] == '+)
+else if (s[i] == '+')
 sign *= 1;
 else if (s[i] >= '0' && s[i] <= '9')
  {
