@@ -4,14 +4,11 @@
  * _strlen_recursion - prints the length
  * @s: pointer to the string to print
  *
- * Return: nothing (void)
+ * Return: length of the string
  */
 int _strlen_recursion(char *s)
 {
-	if (!s)
-	return(0);
-
-	if (*s == '\0')
+	if (!s || *s == '\0')
 	return(0);
 
 	else
