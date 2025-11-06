@@ -10,7 +10,7 @@
 int help_me(int n, int i)
 {
 
-	if (i * i == 0)
+	if (i * i == n)
 	return (i);
 
 	if (i * i > n)
