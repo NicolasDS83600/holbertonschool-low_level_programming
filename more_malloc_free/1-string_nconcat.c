@@ -16,7 +16,7 @@
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *tie;
-	int i, j, nb, len1 = 0, len2 = 0;
+	unsigned int i, j, nb, len1 = 0, len2 = 0, total;
 
 	if (s1 == NULL)
 	s1 = "";
@@ -33,7 +33,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	else
 	nb = n;
 
-	tie = malloc(sizeof(char) * len1 + nb + 1);
+	total = len1 + nb +1;
+
+	tie = malloc(sizeof(char) * total);
 	if (tie == NULL)
 	return (NULL);
 
