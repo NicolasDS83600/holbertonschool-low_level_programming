@@ -33,14 +33,14 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	else
 	nb = n;
 
-	tie = malloc(sizeof(char) * len1 + n + 1);
+	tie = malloc(sizeof(char) * len1 + nb + 1);
 	if (tie == NULL)
 	return (NULL);
 
 	for (i = 0; i < len1; i++)
 	tie[i] = s1[i];
 
-	for (j = 0; j < n; j++)
+	for (j = 0; j < nb; j++)
 	tie[i + j] = s2[j];
 
 	tie[i + j] = '\0';
