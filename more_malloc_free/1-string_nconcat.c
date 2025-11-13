@@ -33,7 +33,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	else
 	nb = n;
 
-	total = len1 + nb +1;
+	total = len1 + nb + 1;
 
 	tie = malloc(sizeof(char) * total);
 	if (tie == NULL)
