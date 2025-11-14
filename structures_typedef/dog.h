@@ -10,7 +10,7 @@
  * Description: This structure is used to store basic information
  * about a dog, including its name, age, and owner's name.
  */
-typedef struct dog
+struct dog
 {
 
 	char *name;
