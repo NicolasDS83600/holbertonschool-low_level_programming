@@ -7,6 +7,7 @@ Each folder in this repository corresponds to a specific project or module.
 
 Below is a list of the folders and the corresponding projects included in this repository:
 
+```
   Folders			Projects
 
 - argc_argv			C - argc, argv
@@ -19,3 +20,4 @@ Below is a list of the folders and the corresponding projects included in this r
 - recursion			C - Recursion
 - structures_typedef		C - Structures, typedef
 - variables_if_else_while	C - Variables, if, else, while
+```
