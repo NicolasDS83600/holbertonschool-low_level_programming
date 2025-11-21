@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdarg.h>
 
+/**
+* print_one - Prints a single argument from a va_list.
+* @c: String of format specifiers (c, i, f, s).
+* @args: va_list containing the argument.
+*/
 void print_one(char c, va_list args)
 {
 	char *s;
@@ -28,6 +33,11 @@ void print_one(char c, va_list args)
 	}
 }
 
+/**
+* print_all - Prints all arguments according to a format string.
+* @format: A string of format specifiers (char, int, float, string).
+* @...: A variable number of arguments corresponding to the format specifiers.
+*/
 void print_all(const char * const format, ...)
 {
 	va_list args;
