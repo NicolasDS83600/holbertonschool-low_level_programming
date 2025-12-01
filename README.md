@@ -8,6 +8,7 @@ Each folder in this repository corresponds to a specific project or module.
 Below is a list of the folders and the corresponding projects included in this repository:
 
 | Folders | Projects |
+|---|---|
 | argc_argv | C - argc, argv |
 | functions_nested_loops | C - Functions, nested loops |
 | hello_world | C - Hello, World |
