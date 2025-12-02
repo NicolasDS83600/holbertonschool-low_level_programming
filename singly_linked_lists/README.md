@@ -20,14 +20,14 @@ Prototype to use: size_t print_list(const list_t *h);
     * If str is NULL, print [0] (nil)
     * You are allowed to use printf
 
-Explanation of the program:
+Explanation of the function:
 
 The print_list function goes through a linked list of type list_t and prints each element. For every node, it checks whether the stored string is NULL.
 If it is, the function prints [0] (nil); otherwise, it prints the length of the string followed by the string itself.
 While traversing the list using the next pointers, the function keeps a count of all nodes it visits. When it reaches the end of the list, it returns the total number of nodes.
 If the list is empty, it returns 0.
 
-The flowchart below illustrates the main steps and logic of the program.
+The flowchart below illustrates the main steps and logic of the function.
 
 ![0-print_list.png](assets/0-print_list.png)
 
@@ -39,13 +39,13 @@ Write a function that returns the number of elements in a linked list_t list.
 
 Prototype to use: size_t list_len(const list_t *h);
 
-Explanation of the program:
+Explanation of the function:
 
 The list_len function goes through a linked list of type list_t and counts how many nodes it contains.
 It starts at the head of the list and moves from one node to the next using the next pointer, increasing a counter each time it visits a node.
 Nothing inside the list is modified; the function only reads the nodes. When it reaches the end of the list, it returns the total number of nodes. If the list is empty, it returns 0.
 
-The flowchart below illustrates the main steps and logic of the program.
+The flowchart below illustrates the main steps and logic of the function.
 
 ![1-list_len.png](assets/1-list_len.png)
 
@@ -60,14 +60,14 @@ Prototype to use: list_t *add_node(list_t **head, const char *str);
     * str needs to be duplicated
     * You are allowed to use strdup
 
-Explanation of the program:
+Explanation of the function:
 
 The add_node function creates a new node and places it at the beginning of a linked list of type list_t.
 It starts by allocating memory for the new node and duplicating the string provided in str. If either allocation fails, the function returns NULL.
 Once the string is stored and its length calculated, the new node is linked to the current head of the list, and the head pointer is updated to point to this new node.
 Finally, the function returns the address of the newly added node.
 
-The flowchart below illustrates the main steps and logic of the program.
+The flowchart below illustrates the main steps and logic of the function.
 
 ![2-add_node.png](assets/2-add_node.png)
 
@@ -82,14 +82,14 @@ Prototype to use: list_t *add_node_end(list_t **head, const char *str);
     * str needs to be duplicated
     * You are allowed to use strdup
 
-Explanation of the program:
+Explanation of the function:
 
 The add_node_end function adds a new node to the end of a linked list of type list_t. It first allocates memory for a new node and duplicates the string passed as an argument.
 If either allocation fails, the function returns NULL. The length of the string is stored in the node, and its next pointer is set to NULL because it will become the last node in the list.
 If the list is empty, the new node becomes the head. Otherwise, the function traverses the list until it reaches the last node and links the new node to the end.
 Finally, it returns the address of the newly created node.
 
-The flowchart below illustrates the main steps and logic of the program.
+The flowchart below illustrates the main steps and logic of the function.
 
 ![3-add_node_end.png](assets/3-add_node_end.png)
 
@@ -101,13 +101,13 @@ Write a function that frees a list_t list.
 
 Prototype to use: void free_list(list_t *head);
 
-Explanation of the program:
+Explanation of the function:
 
 The free_list function goes through a linked list of type list_t and frees all its nodes to prevent memory leaks.
 For each node, it first saves a pointer to the next node, then frees the string stored in the current node, and finally frees the node itself.
 It continues this process until all nodes have been freed and the list is empty.
 
-The flowchart below illustrates the main steps and logic of the program.
+The flowchart below illustrates the main steps and logic of the function.
 
 ![4-free_list.png](assets/4-free_list.png)
 
