@@ -39,7 +39,6 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	}
 	for (pos = 0; runner && pos < idx - 1; pos++)
 		runner = runner->next;
-
 	if (runner == NULL)
 	{
 		free(new_node);
